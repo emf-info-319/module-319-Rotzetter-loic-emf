@@ -12,3 +12,4 @@ public class TypesDeBase {
         System.out.println("Bonjour, je m'appelle " + name + " et j'ai " + age + " ans. J'habite à " +ville+ " en " + pays + ".");
     }
 }
+// fin
