@@ -8,6 +8,7 @@ public class TypesDeBase {
         int age = 17;
         String name = "loic"; 
         String ville = "marly";
-        System.out.println("Bonjour, je m'appelle " + name + " et j'ai " + age + " ans. J'habite à " +ville+ ".");
+        String pays = "sweden";
+        System.out.println("Bonjour, je m'appelle " + name + " et j'ai " + age + " ans. J'habite à " +ville+ " en " + pays + ".");
     }
 }
