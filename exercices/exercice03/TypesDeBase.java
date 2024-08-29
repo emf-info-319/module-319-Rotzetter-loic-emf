@@ -11,6 +11,6 @@ public class TypesDeBase {
         String pays = "Suisse";
         int age_plus_10 = age + 10;
         System.out.println("Bonjour, je m'appelle " + name + " et j'ai " + age + " ans. J'habite à " +ville+ " en " + pays + ".");
-        System.err.println("Dans 10 ans j'aurai " + age_plus_10 + ".");
+        System.out.println("Dans 10 ans j'aurai " + age_plus_10 + ".");
     }
 }
