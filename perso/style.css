@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+body {
+
+    background-color: black;
+    font-family: "Sevillana", cursive;
+}
+
+
+#text {
+    color: rgb(133, 8, 8);
+}
+
+
