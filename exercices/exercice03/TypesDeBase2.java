@@ -6,7 +6,7 @@ public class TypesDeBase2 {
             String prenom = "Loïc";
             String nom = "Rotzetter";
             String ville = "Marly";
-            String pays = "Suisse";
+            String pays = "Suisse"; 
 
         System.out.println("bonjour, je m'appelle " + prenom + " " + nom + ", et j'habite à " + ville + " en " + pays + "." );
     }
