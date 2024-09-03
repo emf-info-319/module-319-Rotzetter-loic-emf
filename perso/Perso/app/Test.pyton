@@ -1,3 +1,4 @@
 python -m venv env
 .\env\Scripts\activate
 print("Bonjour, monde !")
+pip install requests
