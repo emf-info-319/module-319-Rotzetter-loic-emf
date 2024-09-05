@@ -5,9 +5,10 @@ public class ExerciceCondition3 {
         int valeur1 = -2;
         int valeur2 = 6;
 
-        if (valeur1 * valeur2 >0 ) {
+        if ((valeur1 > 0 && valeur2 > 0 || valeur1 < 0 && valeur2 < 0)) {
             System.out.println("Le résultat est positif");
-        } else 
-        System.out.println("Le résultat est négatif");
+        } else {
+            System.out.println("le reultat est negatif");
+        }
     }
 }
