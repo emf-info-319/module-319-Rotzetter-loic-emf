@@ -1,6 +1,6 @@
 package exercices.exercice06;
 
-public class ExerciceSwitch2 {
+public class ExerciceSwitch3 {
         public static void main(String[] args) {
             int age = 22;
                 switch (age) {
