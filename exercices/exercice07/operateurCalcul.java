@@ -16,6 +16,8 @@ public class operateurCalcul {
             System.out.println("Je n'ai pas encore commencé l'école.");
         } else if (age >= 65) {
             System.out.println("Et je suis à la retraite");
+        } else if (age > 114) {
+            System.out.println("Menteur, c'est pas possible. T'es pas l'homme le plus agé du monde.");
         }
     }
 }
