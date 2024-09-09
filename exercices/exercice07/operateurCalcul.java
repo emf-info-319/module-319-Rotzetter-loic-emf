@@ -2,10 +2,10 @@ package exercices.exercice07;
 
 public class operateurCalcul {
     public static void main(String[] args) {
-        int age = 4;
+        int age = 90;
         int année = 2024;
         int annéedenaissance = année - age;
-        System.out.println("Il est né en " + annéedenaissance + ".");
+        System.out.println("Je suis né en " + annéedenaissance + ".");
         if (age >= 4 && age <= 12) {
             System.out.println("Et je suis à l'école primaire.");
         } else if (age > 12 && age <= 16) {
