@@ -1,6 +1,6 @@
 package devoirs.devoir02;
 
-public class devoir02 {
+public class devoir03 {
     public final static int CAPACITE_RESERVOIR_A = 3;
     public final static int CAPACITE_RESERVOIR_B = 5;
 
@@ -18,8 +18,11 @@ public class devoir02 {
                 System.out.println("Remplissage du réservoir B...");
                 reservoirB++;
             }
-            System.out.println("Le réservoir A : " + reservoirA + ", le réservoir B : " + reservoirB);
+            System.out.println("Le réservoir A : " + reservoirA + " ,le réservoir B : " + reservoirB);
         }
+
+        System.out.println("Niveau final du réservoir A : " + reservoirA);
+        System.out.println("Niveau final du réservoir B : " + reservoirB);
         System.out.println("Remplissage terminé!");
     }
 }
