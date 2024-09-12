@@ -2,23 +2,19 @@ package exercices.exercice08;
 
 public class ExerciceBoucles2 {
         public static void main(String[] args) {
-            for (int iteration = 5; iteration <= 5; iteration++) {
+            for (int iteration = 5; iteration >= 1; iteration--) {
                 System.out.println("boucle for : " + iteration);
-                if (iteration == 2) {
-                    iteration -= 1;
-                }
-    
             }
-            int iteration = 10;
-            while (iteration <= 10) {
+            int iteration = 5;
+            while (iteration >= 1) {
                 System.out.println("boucle while " + iteration);
                 iteration--;
             }
     
-            int iiteration = 11;
+            int iiteration = 5;
             do {
                 System.out.println("boucle do-while : " + iiteration);
                 iiteration--;   
-            } while (iiteration <= 15);
+            } while (iiteration >= 1);
         }
 }

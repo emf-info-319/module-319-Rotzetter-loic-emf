@@ -3,10 +3,10 @@ package exercices.exercice08;
 public class ExerciceBoucles1 {
     public static void main(String[] args) {
         for (int iteration = 1; iteration <= 5; iteration++) {
-            System.out.println("boucle for : " + iteration);
             if (iteration == 2) {
-                iteration += 1;
+                continue;
             }
+            System.out.println("boucle for : " + iteration);
 
         }
         int iteration = 6;
