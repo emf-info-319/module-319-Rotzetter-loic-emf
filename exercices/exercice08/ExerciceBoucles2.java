@@ -10,7 +10,6 @@ public class ExerciceBoucles2 {
                 System.out.println("boucle while " + iteration);
                 iteration--;
             }
-    
             int iiteration = 5;
             do {
                 System.out.println("boucle do-while : " + iiteration);

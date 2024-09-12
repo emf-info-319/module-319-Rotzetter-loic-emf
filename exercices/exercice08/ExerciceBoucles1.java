@@ -7,14 +7,12 @@ public class ExerciceBoucles1 {
                 continue;
             }
             System.out.println("boucle for : " + iteration);
-
         }
         int iteration = 6;
         while (iteration <= 10) {
             System.out.println("boucle while " + iteration);
             iteration++;
         }
-
         int iiteration = 11;
         do {
             System.out.println("boucle do-while : " + iiteration);
