@@ -1,6 +1,6 @@
 package exercices.exercice07;
 
-public class operateurCalcul {
+public class OperateurCalcul {
     public static void main(String[] args) {
         int age = 14;
         int année = 2024;
