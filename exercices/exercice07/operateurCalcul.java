@@ -10,7 +10,7 @@ public class operateurCalcul {
             System.out.println("Et je suis à l'école primaire.");
         } else if (age > 12 && age <= 16) {
             System.out.println("Et je suis au cycle d'orientation.");
-        } else if (age > 16 && age < 65 ) {
+        } else if (age > 16 && age < 65) {
             System.out.println("Et j'ai fini le cycle d'orientation.");
         } else if (age < 4) {
             System.out.println("Je n'ai pas encore commencé l'école.");
