@@ -22,4 +22,4 @@ public class devoir02 {
         }
         System.out.println("Remplissage terminé!");
     }
-}
+} 
