@@ -1,7 +1,7 @@
 package exercices.Evaluation_00;
 
 public class Rotzetter_E00 {
-    final int NOMBRE_PTS_VICTOIRE = 3;
+    public static final int NOMBRE_PTS_VICTOIRE = 3;
 
     public static void main(String[] args) {
         String nomEquipe1 = "Barcelone";
@@ -15,10 +15,10 @@ public class Rotzetter_E00 {
             System.out.println(nomEquipe1 + "joue contre " + nomEquipe2 + " et le résultat est : " + scoreEquipe1+ " à " + scoreEquipe2 + ".");
             
             if (scoreEquipe1 > scoreEquipe2) {
-                nombrePointEquipe1 += 3;
+                nombrePointEquipe1 += NOMBRE_PTS_VICTOIRE;
                 System.out.println("nomEquipe1 a gagné");
             } else if (scoreEquipe2 > scoreEquipe1) {
-                nombrePointEquipe2 += 3;
+                nombrePointEquipe2 += NOMBRE_PTS_VICTOIRE;
                 System.out.println("nomEquipe2 a gagné");
             } else if (scoreEquipe1 == scoreEquipe2) {
                 System.out.println("Match nul !");
