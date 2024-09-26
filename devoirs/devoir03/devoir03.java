@@ -3,7 +3,7 @@ package devoirs.devoir03;
 public class devoir03 {
     public static void main(String[] args) {
         int Annee = 2024;
-        int Mois = 9;
+        int Mois = 12;
         int Jours = 20;
         int JoursDeLan = 0;
         
@@ -16,6 +16,7 @@ public class devoir03 {
 
             // calcul du jours de l'an
             for (int i = 0; i < JoursParMois.length; i++) {
+                JoursDeLan -= i;
                 JoursDeLan += JoursParMois[1];
             }
             System.out.println("Le " + Jours + "/" + Mois + "/" + Annee + " est le jour " + JoursDeLan + " de l'An.");
