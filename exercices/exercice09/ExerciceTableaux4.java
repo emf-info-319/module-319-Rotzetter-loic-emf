@@ -10,6 +10,7 @@ public class ExerciceTableaux4 {
         int[] tab = new int[5];
         for (int i = 0; i < tab.length; i++) {
             nombre++;
+            tab[i] = nombre;
             System.out.println("La cellule " + i + " : " + nombre);
         }
 
