@@ -14,9 +14,5 @@ public class Rotzetter_E00 {
             int scoreEquipe2 = ( int ) ( Math.random() * ( 10 - 1 + 1 ) ) + 1;
         }
 
-        
-            System.out.println(nomEquipe1 +"joue contre"+nomEquipe2+" et le résultat est : " +scoreEquipe1+ " à " +scoreEquipe2+ ".");
-
-
     }
 }
