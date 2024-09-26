@@ -1,3 +1,5 @@
+package exercices.exercice09;
+
 public class ExerciceTableaux2 {
 
     public static void main(String[] args) {
