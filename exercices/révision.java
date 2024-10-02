@@ -11,10 +11,12 @@ public class révision {
         long longVar = 10000000000; //uniquement jusqu'à 64 bits
         float floatVar = 3.14f; //Utilisé lorsque la mémoire est une contrainte et que la précision n’est pas critique
         double doubleVar = 3.141592653589793; //Plus présise qu'une float mais prends plus de place
+        String nomEquipe1 = "Barcelone";// ne pas oublier les "" pour le txt
 
         int[] montableau = new int[]{1,3,4,5,6,7,8,9};//pour importer un tableau avec des valeures, montableau est le nom
 
         String[] tab3  = new String[2];//pour entrer un tableau avec du txt, le tableau s'appelle tab3 et à 2 cases de txt
+
         tab3[0] = "salut";//dans la première case il y à coucou
         tab3[1] = "coucou";
         
