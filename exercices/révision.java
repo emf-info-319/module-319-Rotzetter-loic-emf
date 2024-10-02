@@ -2,6 +2,7 @@ package exercices;
 
 public class révision {
     public static final int MA_CONSTANTE = 100; //Toujours en majuscule et dans publique classe
+    public static final int[] tableau22 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };//aussi possible sur les tableaux
     public static void main(String[] args) {
         char charVar = 'a'; //dans des apostrophe et uniquement un caractère
         byte byteVar = 100; //uniquement jusqu'à 8 bits
@@ -18,9 +19,12 @@ public class révision {
         tab3[1] = "coucou";
         
         for (int i = 0; i < tab3.length; i++) {//sert à parcourir toutes les cases du tableau
-            System.out.println(tab3[i]);//dit qu'il faut écrire dans l'invite la case actuelle du tableau 3
+            System.out.println(tab3[i]);//dit qu'il faut écrire dans l'invite la case actuelle du tab3
         }
 
+        System.out.println("Cellule 0 : " + tableau22[0]); //pour sout uniquement la case 0 du tableau22
+
+        
 
     }
 }
