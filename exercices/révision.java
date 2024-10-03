@@ -31,7 +31,7 @@ public class révision {
         int difference = 5 - 3; // difference vaut 2
         int product = 5 * 3; // product vaut 15
         int quotient = 6 / 3 ;
-        int remainder = 5 % 3; // remainder vaut 2
+        int remainder = 5 % 9; // combien de fois 9 dans 5 = 0 donc il reste 5
 
         int a = 5; // a vaut 5
         a += 3; // a vaut maintenant 8
