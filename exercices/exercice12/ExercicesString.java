@@ -14,9 +14,18 @@ public class ExercicesString {
         for (int i = 0; i < monNom.length(); i++) {
             System.out.println("La lettre à la position " + i + " est : " + monNom.charAt(i));
         }
-        if (monNom.indexOf("test") == -1) {
+
+        if (monNom.indexOf("test") == -1) {// 1er version
             System.out.println("La chaîne de caractère" + monNom + " ne contient pas le texte test.");
         } else
             System.out.println("La chaîne de caractère" + monNom + " contient le texte test.");
+            
+
+        if (monNom.contains("test")) {// 2eme cersion
+            System.out.println("La chaîne de caractère" + monNom + " contient le texte test.");
+        } else
+            System.out.println("La chaîne de caractère" + monNom + " ne contient pas le texte test.");
+
     }
+
 }
