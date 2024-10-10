@@ -7,9 +7,10 @@ public class LoicR {
 
     public static void main(String[] args) {
         int[] notesObtenues = new int[NBRE_NOTES];
-
+        double totalNote = 0;
         for (int i = 0; i < notesObtenues.length; i++) {
             notesObtenues[i] = (int) (Math.random() * (NOTE_MAX - NOTE_MIN + 1)) + NOTE_MIN;
+            totalNote = totalNote + notesObtenues[i];
 
             switch (notesObtenues[i]) {
                 case 4:
@@ -26,8 +27,6 @@ public class LoicR {
                     break;
             }
         }
-        double totalNote = (notesObtenues[0] + notesObtenues[1] + notesObtenues[2] + notesObtenues[3]
-                + notesObtenues[4]);
         double moyenne = totalNote / NBRE_NOTES;
         System.out.println("La moyenne est de : " + moyenne);
         if (moyenne > 4) {
