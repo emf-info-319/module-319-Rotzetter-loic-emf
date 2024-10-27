@@ -16,6 +16,6 @@ public class devoir01 {
             System.out.println("Je suis majeur");
         } else {
             System.out.println("Je ne suis pas encore majeur");
-        }
+        } 
     }
 }
