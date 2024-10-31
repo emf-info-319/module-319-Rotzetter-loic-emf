@@ -15,13 +15,16 @@ public class intro {
 
         fin();
     }
+
     public static void debut() {
         System.out.println("Bonjour et bienvenu sur le premier programme");
         System.out.println("On va voir les méthodes dans ce cours");
     }
+
     public static void fin() {
         System.out.println("Programe terminé");
     }
+
     public static int demandenombre() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entrez un nombre : ");
@@ -29,31 +32,21 @@ public class intro {
         System.out.println("Merci j'enregistre " + nombre);
         return nombre;
 
-
     }
 
 }
 
+// Scanner scanner = new Scanner(System.in);
+// System.out.print("Entrez un nombre : ");
+// int nombre1 = scanner.nextInt();
+// System.out.println("Merci j'enregistre " + scanner);
 
+// Scanner scanner2 = new Scanner(System.in);
+// System.out.print("Entrez un nombre : ");
+// int nombre2 = scanner.nextInt();
+// System.out.println("Merci j'enregistre " + scanner2);
 
-
-
-
-
-
-
-
-//Scanner scanner = new Scanner(System.in);
-        //System.out.print("Entrez un nombre : ");
-        //int nombre1 = scanner.nextInt();
-       // System.out.println("Merci j'enregistre " + scanner);
-
- //       Scanner scanner2 = new Scanner(System.in);
-   //     System.out.print("Entrez un nombre : ");
-     //   int nombre2 = scanner.nextInt();
-       // System.out.println("Merci j'enregistre " + scanner2);
-
-//        Scanner scanner3 = new Scanner(System.in);
-  //      System.out.print("Entrez un nombre : ");
-    //    int nombre3 = scanner.nextInt();
-      //  System.out.println("Merci j'enregistre " + scanner3);
+// Scanner scanner3 = new Scanner(System.in);
+// System.out.print("Entrez un nombre : ");
+// int nombre3 = scanner.nextInt();
+// System.out.println("Merci j'enregistre " + scanner3);
