@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class intro {
     public static void main(String[] args) {
-        System.out.println("Bonjour et bienvenu sur le premier programme");
-        System.out.println("On va voir les méthodes dans ce cours");
+        debut();
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Entrez un nombre : ");
@@ -24,5 +23,14 @@ public class intro {
 
         int somme = nombre1 + nombre2 + nombre3;
         System.out.println("La somme est : " + somme);
+
+        fin();
+    }
+    public static void debut(String[] args) {
+        System.out.println("Bonjour et bienvenu sur le premier programme");
+        System.out.println("On va voir les méthodes dans ce cours");
+    }
+    public static void fin(String[] args) {
+        System.out.println("Programe terminé");
     }
 }
