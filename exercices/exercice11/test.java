@@ -7,12 +7,12 @@ public class test {
         int[] tableauInitial = new int[4];
         for (int i = 0; i < 4; i++) {
             tableauInitial[i] = (int) (Math.random() * (MAX - MIN + 1)) + MIN;
-            System.out.println("Tableau initial " + tableauInitial[i]);
+            System.out.println("Tableau initial : " + tableauInitial[i]);
         }
         System.out.println("Contenu du tableau final :");
         int[] tableauFinal = inverseLeTableau(tableauInitial);
         for (int i = 0; i < tableauFinal.length; i++) {
-            System.out.println("tableauFinal " + tableauFinal[i]);
+            System.out.println("tableauFinal : " + tableauFinal[i]);
         }
 
     }
@@ -24,7 +24,6 @@ public class test {
         for (int i = 0; i < taille; i++) {
             tableauInverse[i] = tableauInitial[taille - 1 - i];
         }
-
         return tableauInverse;
     }
 }
