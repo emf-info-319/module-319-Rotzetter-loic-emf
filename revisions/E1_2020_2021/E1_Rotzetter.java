@@ -17,12 +17,18 @@ public class E1_Rotzetter {
         return (int) (Math.random() * (max - min + 1)) + min;
     }
 
-    public static int[] genererGrille(int taille){
+    public static int[] genererGrille(int taille) {
         int nbreBateauxPlaces = 0;
-        int[] tab = new int[taille];
+        int[] grille = new int[taille];
+        while (nbreBateauxPlaces < NBRE_BATEAUX) {
 
-        if (nbreBateauxPlaces < NBRE_BATEAUX) {
-            choisirIndexAleatoire();
+            int index = choisirIndexAleatoire(0, taille - 1);
+
+            if (grille[index] == LIBRE) {
+                grille[index] = OCCUPEE;
+                nbreBateauxPlaces++;
+            }
         }
+        return grille;
     }
 }
