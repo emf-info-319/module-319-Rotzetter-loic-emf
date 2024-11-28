@@ -71,7 +71,7 @@ public class ROTZETTER_E2 {
         return batonnets;
     }
 
-    public static int demanderNombre(Scanner scanner) {s
+    public static int demanderNombre(Scanner scanner) {
         System.out.print("Entre un nombre entre 1 et 3 : ");
         int valeur = scanner.nextInt();
         while (valeur > MAX || valeur < MIN) {
