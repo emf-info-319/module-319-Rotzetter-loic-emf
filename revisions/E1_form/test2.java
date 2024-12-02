@@ -24,7 +24,7 @@ public class test2 {
 
         int[] gagnants = trouveGagnants();
         for (int i = 0; i < gagnants.length; i++) {
-            System.out.println("L'équipe " + EQUIPES[i] + " a gagné.");
+            System.out.println("L'équipe " + EQUIPES[gagnants[i]] + " a gagné.");
         }
     }
 
