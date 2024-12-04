@@ -64,5 +64,18 @@ public class Methodes {
         }
         return taille;
     }
-}
 
+    public static int[] tabVide(int[] tabVide){
+
+    }
+
+    public static int tabMin(int[] tableauRecherche) {// pour trouver une valeur minimal dans un tableaux
+        int min = tableauRecherche[0];
+        for (int i = 1; i < tableauRecherche.length; i++) {
+            if (tableauRecherche[i] < min) {
+                min = tableauRecherche[i];
+            }
+        }
+        return min;
+    }
+}
