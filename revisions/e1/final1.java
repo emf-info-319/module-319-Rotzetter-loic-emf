@@ -1,4 +1,4 @@
-public class test2 {
+public class final1 {
     public static String[] EQUIPES = { "FC Richemont", "FC Central", "FC Schoenberg", "FC Beauregard", "Team AFF",
             "Etoile Sport" };
     public static int MAX_GOAL = 10;
@@ -20,13 +20,15 @@ public class test2 {
         for (int i = 0; i < EQUIPES.length; i++) {
             System.out.println("L'équipe " + EQUIPES[i] + " a " + pointsEquipes[i] + " points.");
         }
+
         System.out.println("-----------------------------");
 
         int[] gagnants = trouveGagnants();
         for (int i = 0; i < gagnants.length; i++) {
-            System.out.println("L'équipe " + EQUIPES[i] + " a gagné.");
+            System.out.println("L'équipe " + EQUIPES[gagnants[i]] + " a gagné.");
         }
     }
+
 
     public static void simuleMatch(int index1, int index2) {
         int scoreEquipe1 = (int) (Math.random() * (MAX_GOAL - 0 + 1)) + 0;
@@ -45,32 +47,35 @@ public class test2 {
         }
     }
 
+    public static int rechercheMaxPts() {
+        int max = 0;
+        for (int i = 0; i < EQUIPES.length; i++) {
+            if (pointsEquipes[i] > max) {
+                max = pointsEquipes[i];
+            }
+        }
+
+        return max;
+    }
+
     public static int[] trouveGagnants() {
         int maxPts = rechercheMaxPts();
         int compteurDesGagnants = 0;
-        int[] equipeGagnante;
+
         for (int i = 0; i < EQUIPES.length; i++) {
             if (pointsEquipes[i] == maxPts) {
                 compteurDesGagnants++;
             }
         }
         int compteur = 0;
+        int[] equipeGagnante;
         equipeGagnante = new int[compteurDesGagnants];
-        for (int i = 0; i < EQUIPES.length; i++) {
+        for (int i = 0; i < pointsEquipes.length; i++) {
             if (pointsEquipes[i] == maxPts) {
                 equipeGagnante[compteur++] = i;
             }
         }
-        return equipeGagnante;
-    }
 
-    public static int rechercheMaxPts() {
-        int pointMax = 0;
-        for (int i = 0; i < EQUIPES.length; i++) {
-            if (pointsEquipes[i] > pointMax) {
-                pointMax = pointsEquipes[i];
-            }
-        }
-        return pointMax;
+        return equipeGagnante;
     }
 }
