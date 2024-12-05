@@ -41,12 +41,12 @@ public class E1_ShutTheBox_RotzetterLoic {
     }
 
     public static void afficheTuiles(int[] tab) {
-        for (int i = 0; i < tab.length - 1; i++) {
-            if (tab[i] <= 9) {
+        for (int i = 1; i < tab.length - 1; i++) {
+            if (i <= 9) {
                 System.out.print("|0" + i);
-            } else if (tab[i] == 0) {
+            } else if (i == 0) {
                 System.out.print("|__" + i);
-            } else if (tab[i] == 10) {
+            } else if (i == 10) {
                 System.out.print("|" + i + "|");
             }
         }
