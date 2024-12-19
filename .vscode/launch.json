@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "mmm",
+            "request": "launch",
+            "mainClass": "Pratique.mmm",
+            "projectName": "module-319-Rotzetter-loic-emf_60035b6d"
+        },
+        {
+            "type": "java",
+            "name": "E1_ShutTheBox_RotzetterLoic",
+            "request": "launch",
+            "mainClass": "Pratique.E1_ShutTheBox_RotzetterLoic",
+            "projectName": "module-319-Rotzetter-loic-emf_60035b6d"
+        },
+        {
+            "type": "java",
             "name": "entrainement",
             "request": "launch",
             "mainClass": "entrainement",
