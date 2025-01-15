@@ -7,7 +7,7 @@ public class Les_Flechettes {
     public static final int MIN = 0;
     public static final int[] POINTS_POSSIBLES = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19,
             20, 25 };
- 
+
     public static void main(String[] args) {
         int[] joueurs = new int[NOMBRE_DE_JOUEURS];
         boolean partieTerminee = false;
@@ -24,7 +24,7 @@ public class Les_Flechettes {
             }
         }
     }
- 
+
     public static int lanceFlechette() {
         int maxPoints = POINTS_POSSIBLES.length - 1;
         int indexFlechette = (int) (Math.random() * (maxPoints - MIN + 1)) + MIN;
@@ -32,12 +32,12 @@ public class Les_Flechettes {
         System.out.println("La fléchette est tombée dans la zone qui donne " + pointsFlechette + " points.");
         return pointsFlechette;
     }
- 
+
     public static int joue(int pointsActuels) {
         int resultat = 0;
         int pointsDuTour = 0;
         int pointsFlechette = 0;
- 
+
         for (int i = 0; i < NOMBRE_DE_FLECHETTES; i++) {
             pointsFlechette = lanceFlechette();
             pointsDuTour = pointsFlechette;
@@ -57,6 +57,5 @@ public class Les_Flechettes {
         }
         return resultat;
     }
- 
+
 }
- 
