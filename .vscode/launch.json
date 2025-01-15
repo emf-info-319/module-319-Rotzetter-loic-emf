@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Les_Flechettes",
+            "request": "launch",
+            "mainClass": "Pratique.Les_Flechettes",
+            "projectName": "module-319-Rotzetter-loic-emf_2e3305ac"
+        },
+        {
+            "type": "java",
             "name": "mmm",
             "request": "launch",
             "mainClass": "Pratique.mmm",
